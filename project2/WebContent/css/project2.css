@@ -1,0 +1,157 @@
+@charset "UTF-8";
+html,body{
+	margin:0px;
+	padding:0px;
+	width:1920px;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+}
+a{
+	text-decoration:none;
+	color:#265543;
+}
+ul{
+	list-style:none;
+}
+li{
+	list-style:none;
+}
+#menus{
+	height:50px;
+}
+.main{
+	margin:0 auto;	
+}
+#menus .main>li {
+	float:left;
+	width:20%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	position: relative;	
+	
+}
+#menus .main>li:hover .sub{
+	display:block;	
+}
+#menus .main>li a{
+	display:block;
+}
+#menus .main>li a:hover{
+	background:#138535;
+	color:#fff;
+}
+#menus .main .sub{
+	position:absolute;
+	top:50px;
+	left:0px;
+	width:100%;
+	display:none;
+	padding:0px;
+
+}
+#menus .main .sub li{
+	background:#daaadb;
+}
+#menus .main .sub li a:hover{
+	background:#7a297b;
+}
+input,textarea{
+	border: none;
+  	outline:none;
+  	background: #d9cedf;
+}
+input,textarea:focus{
+	outline:none;
+}
+
+.wrap {
+	width:1920px;
+	display:block;
+	min-height:100%;
+}
+header {
+	position: sticky; 
+	top: 0px;
+	display:flex;
+/*	justify-content:space-between;
+*/ 
+	background:#e8f6e6;
+	align-items:center;
+	padding:0px;	
+	margin:0 auto;
+	height:10%;
+	width:100%;
+	z-index:10;
+	}
+.head_log{
+	width:20%;
+	padding-right:30px;
+}
+.aside1{
+	width:10%; 
+	height:auto;
+	float:left; 
+}
+.aside2{
+	width:10%; 
+	height:auto;
+	float:right;
+}
+/*여기부터 로그인부분*/	
+	.id_input {
+		margin-bottom:5px;
+	}
+	.pass_input {
+		margin-bottom:10px;
+	}
+	.login_btn {
+		width:180px;
+	}
+
+/*여기까지 로그인부분*/	
+	
+section {
+	float:left;
+	width:79%;
+	margin:0 auto;
+	border-right:1px solid #d9cedf;
+	border-left:1px solid #d9cedf;	
+	min-height:775px;	
+	height:auto;	
+}
+.search_input{
+	background:#e8f0fe;
+}
+.view_section {
+	width:79%;
+	float:left;
+	height:auto;	
+	min-height:775px;	
+	border-right:1px solid #d9cedf;
+	border-left:1px solid #d9cedf;	
+	flex-direction: column;
+    justify-content: center;				
+	}
+.view_comment_input{
+   	background: #d9cedf;
+   	width:600px;	
+}	
+
+footer{
+	clear:both;
+	float:left;	
+	width:100%;
+	position:relative; bottom:0;
+	height:96px;
+	text-align:center;
+	background:#e8f6e6; 
+
+}
+#fdiv{
+	vertical-align:center;
+	margin-top:30px;
+}
+
+
